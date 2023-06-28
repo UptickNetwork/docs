@@ -1,6 +1,8 @@
 # Table of contents
 
-* [Reference](README.md)
+
+* [Uptick network documentation](welcome.md)
+* [Concepts](README.md)
   * [Introduction](readme/intro/README.md)
     * [High-level Overview](readme/intro/overview.md)
     * [Architecture](readme/intro/architecture.md)
