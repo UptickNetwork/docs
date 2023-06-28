@@ -2,20 +2,20 @@
 
 
 * [Uptick network documentation](welcome.md)
-* [Concepts]
-  * [Introduction]
+* Concepts
+  * Introduction
     * [High-level Overview](concepts/intro/overview.md)
     * [Architecture](concepts/intro/architecture.md)
     * [Clients](concepts/intro/clients.md)
     * [Use Cases](concepts/intro/use_cases.md)
     * [resources](concepts/intro/resources.md)
-  * [Basics]
+  * Basics
     * [Chain ID](concepts/basics/chain_id.md)
     * [Accounts](concepts/basics/accounts.md)
     * [Transaction Lifecycle](concepts/basics/transactions.md)
     * [Gas and Fees](concepts/basics/gas.md)
     * [Tokens](concepts/basics/tokens.md)
-  * [Core Concepts]
+  * Core Concepts
     * [Encoding](concepts/core/encoding.md)
     * [Pending State](concepts/core/pending_state.md)
 * [Guides](guides/README.md)

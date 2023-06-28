@@ -42,14 +42,19 @@ The format for specifying and Uptick compatible chain-id in genesis is the follo
 
 The following table provides an example where the second row corresponds to an upgrade from the first one:
 
-Testnets
+:::: tabs
+::: tab Testnets
 
 | ChainID         | Identifier | EIP155 Number | Version Number |
 | --------------- | ---------- | ------------- | -------------- |
-| `origin_1170-1` | uptick     | 1170          | 1              |
+| `origin_1170-1` | origin     | 1170          | 1              |
 
-Mainnet
+:::
+::: tab Mainnet
 
 | ChainID        | Identifier | EIP155 Number | Version Number |
 | -------------- | ---------- | ------------- | -------------- |
 | `uptick_117-1` | uptick     | 117           | 1              |
+
+:::
+::::
