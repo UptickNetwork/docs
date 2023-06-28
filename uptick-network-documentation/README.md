@@ -20,3 +20,6 @@
 ## Contribute
 
 See [this file](https://github.com/UptickNetwork/uptick/blob/main/docs/DOCS\_README.md) for details of the build process and considerations when making changes.
+
+test import
+![](<../uptick-documentation/pubilc/test.png>)
