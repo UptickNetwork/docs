@@ -16,7 +16,7 @@ echo 'export PATH="$DAEMON_HOME/cosmovisor/current/bin:$PATH"' >> ~/.profile
 source ~/.profile
 ```
 
-After this, you must make the necessary folders for cosmosvisor in your daemon home directory (\~/.uptickd).
+After this, you must make the necessary folders for cosmosvisor in your daemon home directory (~/.uptickd).
 
 ```sh
 mkdir -p ~/.uptickd/cosmovisor/upgrades

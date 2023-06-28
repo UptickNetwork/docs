@@ -1,6 +1,6 @@
 # Ensure that you have set peers
 
-In `~/.uptickd/config/config.toml` you can set your peers. See the [peers.txt ](https://github.com/UptickNetwork/uptick-testnet/blob/main/uptick\_7000-2/peers.txt)file for a list of up to date peers.
+In `~/.uptickd/config/config.toml` you can set your peers. See the [peers.txt ](https://github.com/UptickNetwork/uptick-testnet/blob/main/uptick_7000-2/peers.txt)file for a list of up to date peers.
 
 See the [Add persistent peers section ](https://docs.uptick.network/testnet/join.html#add-persistent-peers)in our docs for an automated method, but field should look something like a comma separated string of peers (do not copy this, just an example):
 

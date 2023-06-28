@@ -4,7 +4,7 @@ This document describes the lifecycle of a transaction from creation to committe
 
 ## Pre-requisite Readings
 
-* [SDK transaction lifecycle](https://docs.cosmos.network/master/basics/tx-lifecycle.html)
+* [SDK transaction lifecycle](https://docs.cosmos.network/main/basics/tx-lifecycle.html)
 
 ## Routing
 
@@ -16,8 +16,6 @@ All EVM transactions are [RLP](../core/encoding.md#rlp) encoded using a custom t
 
 ## Signers
 
-The signature processing and verification in Ethereum is performed by the `Signer` interface. The protocol supports different signer types based on the chain configuration params and the block number.
-
-\+++ https://github.com/ethereum/go-ethereum/blob/v1.10.3/core/types/transaction\_signing.go#L145-L166
+The signature processing and verification in Ethereum is performed by the [`Signer`](https://github.com/ethereum/go-ethereum/blob/v1.10.3/core/types/transaction_signing.go#L145-L166) interface. The protocol supports different signer types based on the chain configuration params and the block number.
 
 Uptick supports all Ethereum `Signer`s up to the latest go-ethereum version (London, Berlin, EIP155, Homestead and Frontier). The chain will generate the latest `Signer` type depending on the `ChainConfig`.

@@ -20,10 +20,10 @@ Uptick will make queries which will account for any unconfirmed transactions pre
 
 ### JSON-RPC Calls on Pending Transactions
 
-* [`eth_getBalance`](../../api/json-rpc/endpoints.md#eth\_getbalance)
+* [`eth_getBalance`](../../api/json-rpc/endpoints.md#eth_getbalance)
 * [`eth_getTransactionCount`](../../api/json-rpc/endpoints.md#eth-gettransactioncount)
 * [`eth_getBlockTransactionCountByNumber`](../../api/json-rpc/endpoints.md#eth-getblocktransactioncountbynumber)
 * [`eth_getBlockByNumber`](../../api/json-rpc/endpoints.md#eth-getblockbynumber)
 * [`eth_getTransactionByHash`](../../api/json-rpc/endpoints.md#eth-gettransactionbyhash)
-* [`eth_getTransactionByBlockNumberAndIndex`](https://github.com/starrymedia/upticknetworkdocs/blob/main/api/json-rpc/endpoints.html#eth-gettransactionbyblockhashandindex)
+* [`eth_getTransactionByBlockNumberAndIndex`](../../api/json-rpc/endpoints.md#eth-gettransactionbyblockhashandindex)
 * [`eth_sendTransaction`](../../api/json-rpc/endpoints.md#eth-sendtransaction)

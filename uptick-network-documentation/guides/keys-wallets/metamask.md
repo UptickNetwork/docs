@@ -5,7 +5,7 @@ Connect your MetaMask wallet with Uptick
 The MetaMask browser extension is a wallet for accessing Ethereum-enabled applications and managing user identities. It can be used to connect to Uptick through the official testnet or via a locally-running Uptick node.
 
 {% hint style="info" %}
-If you are planning on developing on Uptick locally and you haven’t already set up your own local node, refer to [the quickstart tutorial](https://github.com/starrymedia/upticknetworkdocs/blob/main/quickstart/run\_node/README.md), or follow the instructions in the [GitHub repository](https://github.com/UptickNetwork/uptick/).
+If you are planning on developing on Uptick locally and you haven’t already set up your own local node, refer to [the quickstart tutorial](../quickstart/README.md), or follow the instructions in the [GitHub repository](https://github.com/UptickNetwork/uptick/).
 {% endhint %}
 
 ## Adding a New Network
@@ -13,7 +13,7 @@ If you are planning on developing on Uptick locally and you haven’t already se
 Open the MetaMask extension on your browser, you may have to log in to your MetaMask account if you are not already. Then click the top right circle and go to `Settings` > `Networks` > `Add Network` and fill the form as shown below.
 
 {% hint style="info" %}
-You can also lookup the [EIP155](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-155.md) `Chain ID` by referring to [chainlist.org](https://chainlist.org/). Alternatively, to get the full Chain ID from Genesis, check the [Chain ID](https://github.com/starrymedia/upticknetworkdocs/blob/main/basics/chain\_id/README.md) documentation page.
+You can also lookup the [EIP155](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-155.md) documentation page.
 {% endhint %}
 
 ![metamask networks settings](../../.gitbook/assets/metamask\_network\_settings.png)

@@ -5,4 +5,4 @@
 * [Interact with other contracts from Solidity](https://ethereum.org/en/developers/tutorials/interact-with-other-contracts-from-solidity/) _– How to deploy a smart contract from an existing contract and interact with it._
 * [How to downsize your contract size](https://ethereum.org/en/developers/tutorials/downsizing-contracts-to-fight-the-contract-size-limit/) _- How to reduce your contract's size to keep it under the limit and save on gas_
 
-\
+

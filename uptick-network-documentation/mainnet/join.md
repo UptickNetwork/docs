@@ -21,7 +21,7 @@ warning Make sure you have the right version of `uptickd` installed.
 We recommend saving the mainnet `chain-id` into your `uptickd`'s `client.toml`. This will make it so you do not have to manually pass in the `chain-id` flag for every CLI command.
 
 {% hint style="info" %}
-See the Official [Chain IDs](../readme/basics/chain\_id.md#official-chain-ids) for reference.
+See the Official [Chain IDs](../concepts/basics/chain\_id.md#official-chain-ids) for reference.
 {% endhint %}
 
 ```bash

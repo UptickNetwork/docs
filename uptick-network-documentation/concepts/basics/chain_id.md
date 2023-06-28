@@ -8,13 +8,13 @@ Testnets
 
 | Name                  | Chain ID        | Identifier | EIP155 Number | Version Number |
 | --------------------- | --------------- | ---------- | ------------- | -------------- |
-| Uptick Origin Testnet | `origin_7000-1` | `uptick`   | `7000`        | `1`            |
+| Uptick Origin Testnet | `origin_1170-1` | `uptick`   | `1170`        | `1`            |
 
 Mainnet
 
 | Name   | Chain ID       | Identifier | EIP155 Number | Version Number                               |
 | ------ | -------------- | ---------- | ------------- | -------------------------------------------- |
-| Uptick | `uptick_117-1` | `uptick`   | `117`         | \{{ $themeConfig.project.version\_number \}} |
+| Uptick | `uptick_117-1` | `uptick`   | `117`         |  `1` |
 
 {% hint style="info" %}
 You can also lookup the [EIP155](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-155.md) `Chain ID` by referring to [chainlist.org](https://chainlist.org/).

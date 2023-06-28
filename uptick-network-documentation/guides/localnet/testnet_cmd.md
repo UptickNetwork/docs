@@ -2,11 +2,11 @@
 
 The `uptickd testnet` subcommand makes it easy to initialize and start a simulated test network for testing purposes.
 
-In addition to the commands for [running a node](../../readme/quickstart/run\_node.md), the `uptickd` binary also includes a `testnet` command that allows you to start a simulated test network in-process or to initialize files for a simulated test network that runs in a separate process.
+In addition to the commands for [running a node](../../concepts/quickstart/run_node.md), the `uptickd` binary also includes a `testnet` command that allows you to start a simulated test network in-process or to initialize files for a simulated test network that runs in a separate process.
 
 ## Initialize Files
 
-The `init-files` subcommand initializes the necessary files to run a test network in a separate process (i.e. using a Docker container). Running this command is not a prerequisite for the `start` subcommand ([see below](testnet\_cmd.md#start-testnet)).
+The `init-files` subcommand initializes the necessary files to run a test network in a separate process (i.e. using a Docker container). Running this command is not a prerequisite for the `start` subcommand ([see below](testnet_cmd.md#start-testnet)).
 
 This is similar to the `init` command when initializing a single node, but in this case we are initializing multiple nodes, generating the genesis transactions for each node, and then collecting those transactions.
 

@@ -21,7 +21,7 @@ The script below will remove any pre-existing binaries installed. Use the manual
 
 ## Manual deployment
 
-The instructions for setting up a brand new full node from scratch are the the same as running a [single node local testnet](../../guides/localnet/single\_node.md#manual-localnet).
+The instructions for setting up a brand new full node from scratch are the the same as running a [single node local testnet](../../guides/localnet/single_node.md#manual-localnet).
 
 ## Start node
 

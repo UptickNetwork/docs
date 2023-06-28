@@ -24,4 +24,4 @@
 * [Docs on networks and app deployment(opens in a new tab)↗](https://www.trufflesuite.com/docs/truffle/advanced/networks-and-app-deployment)
 * [GitHub(opens in a new tab)↗](https://github.com/trufflesuite/truffle)
 
-\
+

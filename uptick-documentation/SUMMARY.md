@@ -134,7 +134,7 @@
     * [Confirm Your Validator is Running](yun-hang-jie-dian/cheng-wei-yi-ge-yan-zheng-ren-jie-dian/run-a-validator/confirm-your-validator-is-running.md)
     * [Halting Your Validator](yun-hang-jie-dian/cheng-wei-yi-ge-yan-zheng-ren-jie-dian/run-a-validator/halting-your-validator.md)
     * [Common Problems](yun-hang-jie-dian/cheng-wei-yi-ge-yan-zheng-ren-jie-dian/run-a-validator/common-problems/README.md)
-      * [Problem #1: My validator has voting\_power: 0](yun-hang-jie-dian/cheng-wei-yi-ge-yan-zheng-ren-jie-dian/run-a-validator/common-problems/problem-1-my-validator-has-voting\_power-0.md)
+      * [Problem #1: My validator has voting_power: 0](yun-hang-jie-dian/cheng-wei-yi-ge-yan-zheng-ren-jie-dian/run-a-validator/common-problems/problem-1-my-validator-has-voting_power-0.md)
       * [Problem #2: My node crashes because of too many open files](yun-hang-jie-dian/cheng-wei-yi-ge-yan-zheng-ren-jie-dian/run-a-validator/common-problems/problem-2-my-node-crashes-because-of-too-many-open-files.md)
   * [Validator Security](yun-hang-jie-dian/cheng-wei-yi-ge-yan-zheng-ren-jie-dian/validator-security/README.md)
     * [Key Management - HSM](yun-hang-jie-dian/cheng-wei-yi-ge-yan-zheng-ren-jie-dian/validator-security/key-management-hsm.md)

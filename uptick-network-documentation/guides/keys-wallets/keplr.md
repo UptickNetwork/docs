@@ -20,14 +20,14 @@ Open the Keplr extension on your browser. If you are setting up Keplr for the fi
 
 Once you are signed in to the Keplr extension, visit the [Faucet](https://faucet.uptick.org/) and click the `Request Funds with Keplr` button. Then approve the both following pop ups `Chain Add Request` and `Request Connection` to add the Uptick testnet chain (`uptick_7000-2`) to Keplr and approve the connection.
 
-![chain add request](../../.gitbook/assets/keplr\_approve\_chain.png)
+![chain add request](../../.gitbook/assets/keplr_approve_chain.png)
 
-After approval, you can see a transaction confirmation informing you that \{{ $themeConfig.project.testnet\_denom \}} have been successfully transferred to your [uptick address](../../readme/basics/accounts.md#address-formats-for-clients) on the testnet (only `secp256k1` addresses are supported).
+After approval, you can see a transaction confirmation informing you that {{ $themeConfig.project.testnet_denom }} have been successfully transferred to your [uptick address](../../concepts/basics/accounts.md#address-formats-for-clients) on the testnet (only `secp256k1` addresses are supported).
 
-![chain add request](../../.gitbook/assets/keplr\_transaction.png)
+![chain add request](../../.gitbook/assets/keplr_transaction.png)
 
 {% hint style="info" %}
-You can request \{{ $themeConfig.project.denom \}} from the [Faucet](../../testnet/faucet.md) for each address only once every 24h. If you try to request multiple times within the 24h cooldown phase, no transaction will be initiated. Please try again in 24 hours.
+You can request {{ $themeConfig.project.denom }} from the [Faucet](../../testnet/faucet.md) for each address only once every 24h. If you try to request multiple times within the 24h cooldown phase, no transaction will be initiated. Please try again in 24 hours.
 {% endhint %}
 
-View your account balance either by clicking on the Keplr extension or by [interacting with the node](../../readme/quickstart/interact\_node.md). Note that Faucet might not display the amount of \{{ $themeConfig.project.testnet\_denom \}} transferred by the Faucet, as it might be smaller than the number of decimals displayed in the Keplr extension.
+View your account balance either by clicking on the Keplr extension or by [interacting with the node](../../concepts/quickstart/interact_node.md). Note that Faucet might not display the amount of {{ $themeConfig.project.testnet_denom }} transferred by the Faucet, as it might be smaller than the number of decimals displayed in the Keplr extension.

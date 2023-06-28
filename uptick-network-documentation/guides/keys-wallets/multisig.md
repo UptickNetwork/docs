@@ -41,17 +41,17 @@ Let's assume that you have `test1` and `test2` want to make a multisig account w
 First import the public keys of `test3` into your keyring.
 
 ```sh
-uptickd keys add \
-    test3 \
+uptickd keys add 
+    test3 
     --pubkey=uptickpub1addwnpepqgcxazmq6wgt2j4rdfumsfwla0zfk8e5sws3p3zg5dkm9007hmfysxas0u2
 ```
 
 Generate the multisig key with 2/3 threshold.
 
 ```sh
-uptickd keys add \
-    multi \
-    --multisig=test1,test2,test3 \
+uptickd keys add 
+    multi 
+    --multisig=test1,test2,test3 
     --multisig-threshold=2
 ```
 
@@ -72,13 +72,13 @@ uptickd keys show multi
 Let's add 10 UPTICK to the multisig wallet:
 
 ```bash
-uptickd tx send \
-    test1 \
-    uptick1e0fx0q9meawrcq7fmma9x60gk35lpr4xk3884m \
-    10000000000000000000auptick \
-    --chain-id=origin_1170-1 \
-    --gas=auto \
-    --fees=1000000auptick \
+uptickd tx send 
+    test1 
+    uptick1e0fx0q9meawrcq7fmma9x60gk35lpr4xk3884m 
+    10000000000000000000auptick 
+    --chain-id=origin_1170-1 
+    --gas=auto 
+    --fees=1000000auptick 
     --broadcast-mode=block
 ```
 
@@ -87,13 +87,13 @@ uptickd tx send \
 We want to send 5 UPTICK from our multisig account to `uptick1rgjxswhuxhcrhmyxlval0qa70vxwvqn2e0srft`.
 
 ```bash
-uptickd tx send \
-    uptick1rgjxswhuxhcrhmyxlval0qa70vxwvqn2e0srft \
-    uptick157g6rn6t6k5rl0dl57zha2wx72t633axqyvvwq \
-    5000000000000000000auptick \
-    --gas=200000 \
-    --fees=1000000auptick \
-    --chain-id=origin_1170-1 \
+uptickd tx send 
+    uptick1rgjxswhuxhcrhmyxlval0qa70vxwvqn2e0srft 
+    uptick157g6rn6t6k5rl0dl57zha2wx72t633axqyvvwq 
+    5000000000000000000auptick 
+    --gas=200000 
+    --fees=1000000auptick 
+    --chain-id=origin_1170-1 
     --generate-only > unsignedTx.json
 ```
 
@@ -143,18 +143,18 @@ The file `unsignedTx.json` contains the unsigned transaction encoded in JSON.
 Sign with `test1` and `test2` and create individual signatures.
 
 ```sh
-uptickd tx sign \
-    unsignedTx.json \
-    --multisig=uptick1e0fx0q9meawrcq7fmma9x60gk35lpr4xk3884m \
-    --from=test1 \
-    --output-document=test1sig.json \
+uptickd tx sign 
+    unsignedTx.json 
+    --multisig=uptick1e0fx0q9meawrcq7fmma9x60gk35lpr4xk3884m 
+    --from=test1 
+    --output-document=test1sig.json 
     --chain-id=origin_1170-1
 ```
 
 ```sh
-uptickd tx sign \
-    unsignedTx.json \
-    --multisig=uptick1e0fx0q9meawrcq7fmma9x60gk35lpr4xk3884m \
+uptickd tx sign 
+    unsignedTx.json 
+    --multisig=uptick1e0fx0q9meawrcq7fmma9x60gk35lpr4xk3884m 
     --from=test2 \
     --output-document=test2sig.json \
     --chain-id=origin_1170-1

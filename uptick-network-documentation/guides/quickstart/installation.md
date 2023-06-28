@@ -20,7 +20,7 @@ go version
 ```
 
 {% hint style="info" %}
-If the `uptickd: command not found` error message is returned, confirm that your [`GOPATH`](https://golang.org/doc/gopath\_code#GOPATH) is correctly configured by running the following command:
+If the `uptickd: command not found` error message is returned, confirm that your [`GOPATH`](https://golang.org/doc/gopath_code#GOPATH) is correctly configured by running the following command:
 
 ```bash
 mkdir -p $HOME/go/bin

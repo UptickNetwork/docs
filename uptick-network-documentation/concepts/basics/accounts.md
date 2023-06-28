@@ -4,14 +4,14 @@ This document describes the in-built accounts system of Uptick.
 
 ## Pre-requisite Readings
 
-* [Cosmos SDK Accounts](https://docs.cosmos.network/master/basics/accounts.html)
+* [Cosmos SDK Accounts](https://docs.cosmos.network/main/basics/accounts)
 * [Ethereum Accounts](https://ethereum.org/en/whitepaper/#ethereum-accounts)
 
 ## Uptick Accounts
 
 Uptick defines its own custom `Account` type that uses Ethereum's ECDSA secp256k1 curve for keys. This satisfies the [EIP84](https://github.com/ethereum/EIPs/issues/84) for full [BIP44](https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki) paths. The root HD path for Uptick-based accounts is `m/44'/60'/0'/0`.
 
-\+++ https://github.com/tharsis/ethermint/blob/main/types/account.pb.go#L28-L33
++++ https://github.com/tharsis/ethermint/blob/main/types/account.pb.go#L28-L33
 
 ## Addresses and Public Keys
 
@@ -133,12 +133,12 @@ uptickd q auth account $(uptickd keys show mykey -a) -o text
 
 ```bash
 # GET /cosmos/auth/v1beta1/accounts/{address}
-curl -X GET "http://localhost:10337/cosmos/auth/v1beta1/accounts/uptick14au322k9munkmx5wrchz9q30juf5wjgz2cfqku" -H "accept: application/json"
+curl -X GET "https://rest.origin.uptick.network/cosmos/auth/v1beta1/accounts/uptick14au322k9munkmx5wrchz9q30juf5wjgz2cfqku" -H "accept: application/json"
 ```
 
 ### JSON-RPC
 
-To retrieve the Ethereum hex address using Web3, use the JSON-RPC [`eth_accounts`](../../api/json-rpc/endpoints.md#eth-accounts) or [`personal_listAccounts`](https://github.com/starrymedia/upticknetworkdocs/blob/main/api/json-rpc/endpoints/README.md#personal-listAccounts.md) endpoints:
+To retrieve the Ethereum hex address using Web3, use the JSON-RPC [`eth_accounts`](../../api/json-rpc/endpoints.md#eth-accounts) or [`personal_listAccounts`](../../api/json-rpc/endpoints.md#personal-listAccounts) endpoints:
 
 ```bash
 # query against a local node

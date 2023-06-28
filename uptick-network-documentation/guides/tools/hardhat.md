@@ -6,8 +6,8 @@ Learn how to deploy a simple Solidity-based smart contract to Uptick using the H
 
 ## Pre-requisite Readings
 
-* [Installation](../../readme/quickstart/installation.md)
-* [Run a node](../../readme/quickstart/run\_node.md)
+* [Installation](../../concepts/quickstart/installation.md)
+* [Run a node](../../concepts/quickstart/run_node.md)
 
 ## Install Dependencies
 
@@ -42,7 +42,7 @@ $ npm -v
 ```
 
 {% hint style="info" %}
-If you haven't already, you will also need to install Uptick if you plan on deploying your smart contracts locally. Check this [document](../../readme/quickstart/installation.md) for the full instructions.
+If you haven't already, you will also need to install Uptick if you plan on deploying your smart contracts locally. Check this [document](../../concepts/quickstart/installation.md) for the full instructions.
 {% endhint %}
 
 ## Create Hardhat Project

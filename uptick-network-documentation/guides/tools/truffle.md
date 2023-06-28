@@ -4,8 +4,8 @@ Learn how to deploy a simple Solidity-based smart contract to Uptick using the T
 
 ## Pre-requisite Readings
 
-* [Installation](https://github.com/starrymedia/upticknetworkdocs/blob/main/guides/quickstart/installation.md)
-* [Run a node](https://github.com/starrymedia/upticknetworkdocs/blob/main/guides/quickstart/run\_node.md)
+* [Installation](../../guides/quickstart/installation.md)
+* [Run a node](../../guides/quickstart/run_node.md)
 
 [Truffle](https://www.trufflesuite.com/truffle) is a development framework for deploying and managing [Solidity](https://github.com/ethereum/solidity) smart contracts.
 
@@ -18,7 +18,7 @@ yarn install truffle -g
 ```
 
 {% hint style="info" %}
-If you haven't already, you will also need to install Uptick if you plan on deploying your smart contracts locally. Check this [document](../../readme/quickstart/installation.md) for the full instructions.
+If you haven't already, you will also need to install Uptick if you plan on deploying your smart contracts locally. Check this [document](../../concepts/quickstart/installation.md) for the full instructions.
 {% endhint %}
 
 ## Create Truffle Project
@@ -111,7 +111,7 @@ $ init.sh
 ```
 
 {% hint style="info" %}
-For further information on how to run a node, please refer to the [quickstart guide](../../readme/quickstart/run\_node.md).
+For further information on how to run a node, please refer to the [quickstart guide](../../concepts/quickstart/run_node.md).
 {% endhint %}
 
 ## Deploy contract
@@ -125,10 +125,10 @@ truffle migrate --network development
 You should see incoming deployment logs in the Uptick daemon Terminal tab for each transaction (one to deploy `Migrations.sol` and the other to deploy `Counter.sol`).
 
 ```bash
-$ I[2020-07-15|17:35:59.934] Added good transaction                       module=mempool tx=22245B935689918D332F58E82690F02073F0453D54D5944B6D64AAF1F21974E2 res="&{CheckTx:log:\"[]\" gas_wanted:6721975 }" height=3 total=1
+$ I[2020-07-15|17:35:59.934] Added good transaction                       module=mempool tx=22245B935689918D332F58E82690F02073F0453D54D5944B6D64AAF1F21974E2 res="&{CheckTx:log:"[]" gas_wanted:6721975 }" height=3 total=1
 I[2020-07-15|17:36:02.065] Executed block                               module=state height=4 validTxs=1 invalidTxs=0
 I[2020-07-15|17:36:02.068] Committed state                              module=state height=4 txs=1 appHash=76BA85365F10A59FE24ADCA87544191C2D72B9FB5630466C5B71E878F9C0A111
-I[2020-07-15|17:36:02.981] Added good transaction                       module=mempool tx=84516B4588CBB21E6D562A6A295F1F8876076A0CFF2EF1B0EC670AD8D8BB5425 res="&{CheckTx:log:\"[]\" gas_wanted:6721975 }" height=4 total=1
+I[2020-07-15|17:36:02.981] Added good transaction                       module=mempool tx=84516B4588CBB21E6D562A6A295F1F8876076A0CFF2EF1B0EC670AD8D8BB5425 res="&{CheckTx:log:"[]" gas_wanted:6721975 }" height=4 total=1
 ```
 
 ## Run Truffle tests

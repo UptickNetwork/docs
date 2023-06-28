@@ -15,12 +15,12 @@ A `gentx` is a JSON file carrying a self-delegation. All genesis transactions ar
 {% endhint %}
 
 ```sh
-uptickd gentx \
-  --amount <amount_of_delegation_auptick> \
-  --commission-rate <commission_rate> \
-  --commission-max-rate <commission_max_rate> \
-  --commission-max-change-rate <commission_max_change_rate> \
-  --pubkey <consensus_pubkey> \
+uptickd gentx 
+  --amount <amount_of_delegation_auptick> 
+  --commission-rate <commission_rate> 
+  --commission-max-rate <commission_max_rate> 
+  --commission-max-change-rate <commission_max_change_rate> 
+  --pubkey <consensus_pubkey> 
   --name <key_name>
 ```
 

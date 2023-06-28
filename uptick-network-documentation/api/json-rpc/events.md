@@ -4,7 +4,7 @@
 
 ## Pre-requisite Readings
 
-* [Cosmos SDK Events](https://docs.cosmos.network/master/core/events.html)
+* [Cosmos SDK Events](https://docs.cosmos.network/main/core/events.html)
 * [Ethereum's PubSub JSON-RPC API](https://geth.ethereum.org/docs/rpc/pubsub)
 
 ## Subscribing to Events
