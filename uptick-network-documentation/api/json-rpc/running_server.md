@@ -12,7 +12,7 @@ uptickd start --json-rpc.enable
 
 ## Defining Namespaces
 
-`Eth`,`Net` and `Web3` [namespaces](https://github.com/starrymedia/upticknetworkdocs/blob/main/api/json-rpc/namespaces/README.md) are enabled by default. In order to enable other namespaces use flag `--json-rpc.api`.
+`Eth`,`Net` and `Web3` [namespaces](namespaces.md) are enabled by default. In order to enable other namespaces use flag `--json-rpc.api`.
 
 ```bash
 uptickd start --json-rpc.api eth,txpool,personal,net,debug,web3,miner

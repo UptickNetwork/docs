@@ -2,7 +2,7 @@
 
 ## Pre-requisite Readings
 
-* [Install Binary](https://github.com/starrymedia/upticknetworkdocs/blob/main/quickstart/installation/README.md)
+* [Install Binary](../quickstart/installation.md)
 
 ## Automated Localnet (script)
 
@@ -11,7 +11,7 @@ You can customize the local testnet script by changing values for convenience fo
 ```bash
 # customize the name of your key, the chain-id, moniker of the node, keyring backend, and log level
 KEY="mykey"
-CHAINID="origin_1170-1"
+CHAINID="uptick_9000-1"
 MONIKER="localtestnet"
 KEYRING="test"
 LOGLEVEL="info"
@@ -24,7 +24,7 @@ uptickd add-genesis-account $KEY 100000000000000000000000000auptick --keyring-ba
 uptickd gentx $KEY 1000000000000000000000auptick --keyring-backend $KEYRING --chain-id $CHAINID
 ```
 
-The default configuration will generate a single validator localnet with the chain-id `origin_1170-1` and one predefined account (`mykey`) with some allocated funds at the genesis.
+The default configuration will generate a single validator localnet with the chain-id `uptick_9000-1` and one predefined account (`mykey`) with some allocated funds at the genesis.
 
 You can start the local chain using:
 
@@ -43,17 +43,17 @@ Before actually running the node, we need to initialize the chain, and most impo
 ```bash
 $MONIKER=testing
 $KEY=mykey
-$CHAINID="origin_1170-1"
+$CHAINID="uptick_9000-1"
 
 # The argument $MONIKER is the custom username of your node, it should be human-readable.
 uptickd init $MONIKER --chain-id=$CHAINID
 ```
 
 {% hint style="info" %}
-You can [edit](../../concepts/quickstart/binary.md#configuring-the-node) this `moniker` later by updating the `config.toml` file.
+You can [edit](../quickstart/binary.md#configuring-the-node) this `moniker` later by updating the `config.toml` file.
 {% endhint %}
 
-The command above creates all the configuration files needed for your node and validator to run, as well as a default genesis file, which defines the initial state of the network. All these [configuration files](../../concepts/quickstart/binary.md#configuring-the-node) are in `~/.uptickd` by default, but you can overwrite the location of this folder by passing the `--home` flag.
+The command above creates all the configuration files needed for your node and validator to run, as well as a default genesis file, which defines the initial state of the network. All these [configuration files](../quickstart/binary.md#configuring-the-node) are in `~/.uptickd` by default, but you can overwrite the location of this folder by passing the `--home` flag.
 
 ### Genesis Procedure
 
@@ -79,7 +79,7 @@ For this guide, you will add your local node (created via the `init` command abo
 # Create a gentx
 # NOTE: this command lets you set the number of coins. 
 # Make sure this account has some coins with the genesis.app_state.staking.params.bond_denom denom
-uptickd add-genesis-account my_validator 1000000000stake,10000000000auptick
+uptickd add-genesis-account my_validator 10000000000auptick
 ```
 
 A `gentx` does three things:

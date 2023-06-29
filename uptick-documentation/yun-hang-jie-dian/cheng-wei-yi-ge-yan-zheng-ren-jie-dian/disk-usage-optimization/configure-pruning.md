@@ -9,5 +9,5 @@ pruning-keep-every = "0"
 pruning-interval = "10"
 ```
 
-\
+
 Configuring `pruning-keep-recent = "0"` might sound tempting, but this will risk database corruption if the `uptickd` is killed for any reason. Thus, it is recommended to keep the few latest states.

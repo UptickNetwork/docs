@@ -2,7 +2,7 @@
 
 The `uptickd testnet` subcommand makes it easy to initialize and start a simulated test network for testing purposes.
 
-In addition to the commands for [running a node](../../concepts/quickstart/run_node.md), the `uptickd` binary also includes a `testnet` command that allows you to start a simulated test network in-process or to initialize files for a simulated test network that runs in a separate process.
+In addition to the commands for [running a node](../quickstart/run_node.md), the `uptickd` binary also includes a `testnet` command that allows you to start a simulated test network in-process or to initialize files for a simulated test network that runs in a separate process.
 
 ## Initialize Files
 
@@ -46,7 +46,7 @@ You should see something similar to the following:
 
 ```bash
 acquiring test network lock
-preparing test network with chain-id "origin_1170-1"
+preparing test network with chain-id "uptick_9000-1"
 
 
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

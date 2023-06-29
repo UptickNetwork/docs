@@ -6,8 +6,8 @@ Learn how to deploy a simple Solidity-based smart contract to Uptick using the H
 
 ## Pre-requisite Readings
 
-* [Installation](../../concepts/quickstart/installation.md)
-* [Run a node](../../concepts/quickstart/run_node.md)
+* [Installation](../quickstart/installation.md)
+* [Run a node](../quickstart/run_node.md)
 
 ## Install Dependencies
 

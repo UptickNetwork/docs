@@ -16,25 +16,17 @@ Open the MetaMask extension on your browser, you may have to log in to your Meta
 You can also lookup the [EIP155](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-155.md) documentation page.
 {% endhint %}
 
-![metamask networks settings](../../.gitbook/assets/metamask\_network\_settings.png)
+![metamask networks settings](../../.gitbook/assets/metamask_network_settings.png)
 
 Here is the list of fields that you can use to paste on Metamask:
 
 Testnet
 
-* **Network Name:** `Uptick Testnet`
-* **New RPC URL:** `{{ $themeConfig.project.rpc_url_testnet }}`
-* **Chain ID:** `7000`
-* **Currency Symbol (optional):** `{{ $themeConfig.project.testnet_ticker }}`
-* **Block Explorer URL (optional):** `{{ $themeConfig.project.block_explorer_url }}`
-
-Local Node
-
-* **Network Name:** `Uptick Local`
-* **New RPC URL:** `{{ $themeConfig.project.rpc_url_local }}`
-* **Chain ID:** `7000`
-* **Currency Symbol (optional):** `{{ $themeConfig.project.testnet_ticker }}`
-* **Block Explorer URL (optional):** `n/a`
+* **Network Name:** `Uptick origin Testnet`
+* **New RPC URL:** `https://jrpc-rpc.origin.uptick.network`
+* **Chain ID:** `1170`
+* **Currency Symbol (optional):** `UOC`
+* **Block Explorer URL (optional):** `https://evm-explorer.origin.uptick.network`
 
 ## Import Account to Metamask
 
@@ -42,7 +34,7 @@ Local Node
 
 Close the `Settings`, go to `My Accounts` (top right circle) and select `Import Account`. You should see an image like the following one:
 
-![metamask manual import account page](../../.gitbook/assets/metamask\_import.png)
+![metamask manual import account page](../../.gitbook/assets/metamask_import.png)
 
 Now you can export your private key from the terminal using the following command. Again, make sure to replace `mykey` with the name of the key that you want to export and use the correct `keyring-backend`:
 
@@ -52,7 +44,7 @@ uptickd keys unsafe-export-eth-key mykey --keyring-backend test
 
 Go back to the browser and select the `Private Key` option. Then paste the private key exported from the `unsafe-export-eth-key` command.
 
-Your account balance should show up as `1 {{ $themeConfig.project.testnet_ticker }}` and do transfers as usual.
+Your account balance should show up as `1 UOC` and do transfers as usual.
 
 {% hint style="info" %}
 If it takes some time to load the balance of the account, change the network to `Main Ethereum Network` (or any other than `Localhost 8545` or `Uptick`) and then switch back to `Uptick`.
@@ -70,7 +62,7 @@ Make sure you download your [account state](metamask.md#download-account-state) 
 
 Go to `Settings` > `Advanced` and click the `Reset Account` button as shown below:
 
-![Metamask Account Reset](../../.gitbook/assets/reset\_account.png)
+![Metamask Account Reset](../../.gitbook/assets/reset_account.png)
 
 ## Download Account State
 

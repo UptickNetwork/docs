@@ -53,7 +53,7 @@ Since the code generation library largely depends on your own tech stack, we wil
 
 [grpcurl](https://github.com/fullstorydev/grpcurl) is like `curl` but for gRPC. It is also available as a Go library, but we will use it only as a CLI command for debugging and testing purposes. Follow the instructions in the previous link to install it.
 
-Assuming you have a local node running (either a localnet, or connected a live network), you should be able to run the following command to list the Protobuf services available (you can replace `localhost:9000` by the gRPC server endpoint of another node, which is configured under the `grpc.address` field inside [`app.toml`](https://github.com/starrymedia/upticknetworkdocs/blob/main/run-node.md#configuring-the-node-using-apptoml)):
+Assuming you have a local node running (either a localnet, or connected a live network), you should be able to run the following command to list the Protobuf services available (you can replace `localhost:9000` by the gRPC server endpoint of another node, which is configured under the `grpc.address` field inside [`app.toml`](run_node.md#configuring-the-node-using-apptoml)):
 
 ```bash
 grpcurl -plaintext localhost:9090 list

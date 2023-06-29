@@ -71,8 +71,8 @@ Check the JSON-RPC methods supported on Uptick.
 | [`personal_sendTransaction`](endpoints.md#personal-sendtransaction)                           | Personal  | ✔           | ❌      |                    |
 | [`personal_sign`](endpoints.md#personal-sign)                                                 | Personal  | ✔           | ❌      |                    |
 | [`personal_ecRecover`](endpoints.md#personal-ecrecover)                                       | Personal  | ✔           | ❌      |                    |
-| [`personal_initializeWallet`](endpoints.md#personal\_initializewallet)                        | Personal  | ✔           | ❌      |                    |
-| [`personal_unpair`](endpoints.md#personal\_unpair)                                            | Personal  | ✔           | ❌      |                    |
+| [`personal_initializeWallet`](endpoints.md#personal_initializewallet)                        | Personal  | ✔           | ❌      |                    |
+| [`personal_unpair`](endpoints.md#personal_unpair)                                            | Personal  | ✔           | ❌      |                    |
 | `db_putString`                                                                                | DB        |             |        |                    |
 | `db_getString`                                                                                | DB        |             |        |                    |
 | `db_putHex`                                                                                   | DB        |             |        |                    |

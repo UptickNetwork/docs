@@ -14,4 +14,4 @@ It is expected that good operating procedures on that part of validators will co
 
 For more on sentry node architecture, see [this](https://forum.cosmos.network/t/sentry-node-architecture-overview/454).
 
-\
+

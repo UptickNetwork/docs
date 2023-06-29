@@ -5,13 +5,13 @@ Learn how to setup and run a validator node
 ## Pre-requisite Readings
 
 * [Validator Overview](overview.md)
-* [Full Node Setup](../localnet/single\_node.md#manual-localnet)
+* [Full Node Setup](../localnet/single_node.md#manual-localnet)
 
-If you plan to use a Key Management System (KMS), you should go through these steps first: [Using a KMS](../kms/kms.md).
+If you plan to use a Key Management System (KMS), you should go through these steps first: [Using a KMS](../kms.md).
 
 ## What is a Validator?
 
-[Validators](overview.md) are responsible for committing new blocks to the blockchain through voting. A validator's stake is slashed if they become unavailable or sign blocks at the same height. Please read about [Sentry Node Architecture](https://github.com/starrymedia/upticknetworkdocs/blob/main/guides/validators/validator-faq.md#how-can-validators-protect-themselves-from-denial-of-service-attacks) to protect your node from DDoS attacks and to ensure high-availability.
+[Validators](overview.md) are responsible for committing new blocks to the blockchain through voting. A validator's stake is slashed if they become unavailable or sign blocks at the same height. Please read about [Sentry Node Architecture](../../guides/validators/faq.md#how-can-validators-protect-themselves-from-denial-of-service-attacks) to protect your node from DDoS attacks and to ensure high-availability.
 
 {% hint style="info" %}
 Warning If you want to become a validator for the Hub's `mainnet`, you should [research security](security.md).
@@ -103,7 +103,7 @@ You can then submit your `gentx` on the [launch repository](https://github.com/c
 
 You can edit your validator's public description. This info is to identify your validator, and will be relied on by delegators to decide which validators to stake to. Make sure to provide input for every flag below. If a flag is not included in the command the field will default to empty (`--moniker` defaults to the machine name) if the field has never been set or remain the same if it has been set in the past.
 
-The \<key\_name> specifies which validator you are editing. If you choose to not include certain flags, remember that the --from flag must be included to identify the validator to update.
+The <key_name> specifies which validator you are editing. If you choose to not include certain flags, remember that the --from flag must be included to identify the validator to update.
 
 The `--identity` can be used as to verify identity with systems like Keybase or UPort. When using with Keybase `--identity` should be populated with a 16-digit string that is generated with a [keybase.io](https://keybase.io) account. It's a cryptographically secure method of verifying your identity across multiple online networks. The Keybase API allows us to retrieve your Keybase avatar. This is how you can add a logo to your validator profile.
 

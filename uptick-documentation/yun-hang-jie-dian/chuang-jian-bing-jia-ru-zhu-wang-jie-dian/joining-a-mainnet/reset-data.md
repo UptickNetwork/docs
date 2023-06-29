@@ -1,7 +1,7 @@
 # Reset Data
 
 {% hint style="info" %}
-If the version \<new\_version> you are upgrading to is not breaking from the previous one, you **should not** reset the data. If this is the case you can skip to [Restart](https://docs.uptick.network/mainnet/join.html#restart)
+If the version <new_version> you are upgrading to is not breaking from the previous one, you **should not** reset the data. If this is the case you can skip to [Restart](https://docs.uptick.network/mainnet/join.html#restart)
 {% endhint %}
 
 First, remove the outdated files and reset the data.

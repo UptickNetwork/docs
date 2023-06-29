@@ -1,4 +1,4 @@
-# Problem #1: My validator has voting\_power: 0
+# Problem #1: My validator has voting_power: 0
 
 Your validator has become jailed. Validators get jailed, i.e. get removed from the active validator set, if they do not vote on `500` of the last `10000` blocks, or if they double sign.If you got jailed for downtime, you can get your voting power back to your validator. First, if `uptickd` is not running, start it up again:
 

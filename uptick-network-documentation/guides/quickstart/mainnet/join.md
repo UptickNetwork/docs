@@ -8,11 +8,11 @@ You specify the network you want to join by setting the **genesis file** and **s
 
 | Network Chain ID | Description    | Site                                                                                     | Version                                                         |
 | ---------------- | -------------- | ---------------------------------------------------------------------------------------- | --------------------------------------------------------------- |
-| `uptick_117-1`   | Uptick mainnet | [uptick\_117-1](https://github.com/UptickNetwork/uptick-mainnet/tree/main/uptick\_117-1) | [`v0.2.4`](https://github.com/UptickNetwork/uptick/tree/v0.2.4) |
+| `uptick_117-1`   | Uptick mainnet | [uptick_117-1](https://github.com/UptickNetwork/uptick-mainnet/tree/main/uptick_117-1) | [`v0.2.4`](https://github.com/UptickNetwork/uptick/tree/v0.2.4) |
 
 ## Install `uptickd`
 
-Follow the [installation](https://github.com/starrymedia/upticknetworkdocs/blob/main/quickstart/installation/README.md) document to install the Uptick binary `uptickd`.
+Follow the [installation](../../quickstart/installation.md) document to install the Uptick binary `uptickd`.
 
 warning Make sure you have the right version of `uptickd` installed.
 
@@ -21,7 +21,7 @@ warning Make sure you have the right version of `uptickd` installed.
 We recommend saving the mainnet `chain-id` into your `uptickd`'s `client.toml`. This will make it so you do not have to manually pass in the `chain-id` flag for every CLI command.
 
 {% hint style="info" %}
-See the Official [Chain IDs](../concepts/basics/chain\_id.md#official-chain-ids) for reference.
+See the Official [Chain IDs](../../../concepts/basics/chain_id.md#official-chain-ids) for reference.
 {% endhint %}
 
 ```bash
@@ -43,7 +43,7 @@ curl -o $HOME/.uptickd/config/genesis.json https://raw.githubusercontent.com/Upt
 
 ## Start testnet
 
-The final step is to [start the nodes](https://github.com/starrymedia/upticknetworkdocs/blob/main/quickstart/run\_node/README.md#start-node). Once enough voting power (+2/3) from the genesis validators is up-and-running, the testnet will start producing blocks.
+The final step is to [start the nodes](../../quickstart/run_node.md#start-node). Once enough voting power (+2/3) from the genesis validators is up-and-running, the testnet will start producing blocks.
 
 ```bash
 # start the node (you can also use "nohup" or "systemd" to run in the background)
@@ -53,9 +53,9 @@ uptickd start
 {% hint style="info" %}
 You may see some connection errors, it does not matter, the P2P network is trying to find available connections
 
-Try to add some of the [Community Peers](https://github.com/UptickNetwork/uptick-mainnet/tree/main/uptick\_117-1) to persistent\_peers in the config.toml
+Try to add some of the [Community Peers](https://github.com/UptickNetwork/uptick-mainnet/tree/main/uptick_117-1) to persistent_peers in the config.toml
 
-If you want to quickly start the node and join Uptick without historical data, you can consider using the [state\_sync](../guides/statesync.md) function.
+If you want to quickly start the node and join Uptick without historical data, you can consider using the [state_sync](../../statesync.md) function.
 {% endhint %}
 
 ## Status Sync
@@ -121,7 +121,7 @@ uptickd tx staking create-validator \
 
 ### Reset Data
 
-warning If the version \<new\_version> you are upgrading to is not breaking from the previous one, you **should not** reset the data. If this is the case you can skip to [Restart](join.md#restart)
+warning If the version <new_version> you are upgrading to is not breaking from the previous one, you **should not** reset the data. If this is the case you can skip to [Restart](join.md#restart)
 
 First, remove the outdated files and reset the data.
 

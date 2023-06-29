@@ -18,7 +18,7 @@ yarn install truffle -g
 ```
 
 {% hint style="info" %}
-If you haven't already, you will also need to install Uptick if you plan on deploying your smart contracts locally. Check this [document](../../concepts/quickstart/installation.md) for the full instructions.
+If you haven't already, you will also need to install Uptick if you plan on deploying your smart contracts locally. Check this [document](../quickstart/installation.md) for the full instructions.
 {% endhint %}
 
 ## Create Truffle Project

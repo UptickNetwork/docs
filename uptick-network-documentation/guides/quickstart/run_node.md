@@ -49,7 +49,7 @@ You can generate a new key/mnemonic with:
 uptickd keys add $KEY
 ```
 
-To export your uptick key as an Ethereum private key (for use with [Metamask](https://github.com/starrymedia/upticknetworkdocs/blob/main/guides/keys-wallets/metamask/README.md) for example):
+To export your uptick key as an Ethereum private key (for use with [Metamask](../../guides/keys-wallets/metamask.md) for example):
 
 ```bash
 uptickd keys unsafe-export-eth-key $KEY
@@ -70,7 +70,7 @@ uptickd config keyring-backend file
 ```
 
 {% hint style="info" %}
-For more information about the Keyring and its backend options, click [here](https://github.com/starrymedia/upticknetworkdocs/blob/main/guides/keys-wallets/keyring/README.md).
+For more information about the Keyring and its backend options, click [here](../../guides/keys-wallets/keyring.md).
 {% endhint %}
 
 ## Clearing data from chain
