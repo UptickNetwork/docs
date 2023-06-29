@@ -171,4 +171,4 @@
   * [Tendermint RPC](endpoints/tendermint.md)
 * Tools
   * [IDE Plugins](tools/ide-plugins.md)
-  * [IDE Plugins](tools/client.md)
+  * [Client Integrations](tools/client.md)

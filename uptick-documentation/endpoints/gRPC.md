@@ -10,6 +10,6 @@ The grpc.Server is a concrete gRPC server, which spawns and serves any gRPC requ
   * grpc.address = {string} field defines the address (really, the port, since the host should be kept at 0.0.0.0) the server should bind to. Defaults to 0.0.0.0:9000.
   * Once the gRPC server is started, you can send requests to it using a gRPC client.
 
-#gRPC Endpoints
+# gRPC Endpoints
 
-An overview of all available gRPC endpoints shipped with the Uptick is [Protobuf documention](../../pubilc/protobuf/readme.md).
+An overview of all available gRPC endpoints shipped with the Uptick is [Protobuf documention](protobuf/readme.md).
