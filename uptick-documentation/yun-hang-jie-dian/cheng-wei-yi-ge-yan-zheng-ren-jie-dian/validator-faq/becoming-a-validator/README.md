@@ -1,2 +1,0 @@
-# Becoming a Validator
-

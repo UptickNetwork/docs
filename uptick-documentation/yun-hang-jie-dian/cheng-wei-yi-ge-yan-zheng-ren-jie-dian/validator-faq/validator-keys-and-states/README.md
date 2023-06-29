@@ -1,2 +1,0 @@
-# Validator keys and states
-

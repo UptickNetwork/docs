@@ -1,3 +1,0 @@
-# Hardware
-
-Validators should set up a physical operation secured with restricted access. A good starting place, for example, would be co-locating in secure data centers. Validators should expect to equip their datacenter location with redundant power, connectivity, and storage backups. Expect to have several redundant networking boxes for fiber, firewall and switching and then small servers with redundant hard drive and failover. Hardware can be on the low end of datacenter gear to start out with. We anticipate that network requirements will be low initially. Bandwidth, CPU and memory requirements will rise as the network grows. Large hard drives are recommended for storing years of blockchain history.
