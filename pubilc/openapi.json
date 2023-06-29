@@ -5,7 +5,7 @@
     "description": "A REST interface for state queries and transactions",
     "version": "1.0.0"
   },
-  "host": "https://rest.origin.uptick.network",
+  "host": "rest.origin.uptick.network",
   "paths": {
     "/ethermint/evm/v1/account/{address}": {
       "get": {

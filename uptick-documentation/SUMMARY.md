@@ -2,9 +2,9 @@
 
 * [Getting Started](started/README.md)
 * [Smart Contracts](contracts/README.md)
-  * [How to Simply Develop a Smart Contract](contracts/solidity.md)
+  * [How to Simply Develop a Smart Contract](contracts/deploy.md)
   * [Deploy Smart Contract with Remix](contracts/solidity.md)
-* [Endpoints]
+* Endpoints
   * [Introduction](endpoints/introduction.md)
   * [API reference](endpoints/api-reference/README.md)
     * [Ethermint](endpoints/api-reference/ethermint/README.md)
@@ -169,6 +169,6 @@
   * [gRPC Client](endpoints/gRPC.md)
   * [Ethereum JSON-RPC](endpoints/ethereum.md)
   * [Tendermint RPC](endpoints/tendermint.md)
-* [Tools]
+* Tools
   * [IDE Plugins](tools/ide-plugins.md)
   * [IDE Plugins](tools/client.md)

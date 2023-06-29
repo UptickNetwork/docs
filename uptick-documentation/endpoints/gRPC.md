@@ -12,4 +12,4 @@ The grpc.Server is a concrete gRPC server, which spawns and serves any gRPC requ
 
 #gRPC Endpoints
 
-An overview of all available gRPC endpoints shipped with the Uptick is [Protobuf documention](../../uptick-network-documentation/api/protobuf/readme.md).
+An overview of all available gRPC endpoints shipped with the Uptick is [Protobuf documention](../../pubilc/protobuf/readme.md).
