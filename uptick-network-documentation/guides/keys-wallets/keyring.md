@@ -33,7 +33,7 @@ The `os` backend relies on operating system-specific defaults to handle key stor
   * [libsecret](https://gitlab.gnome.org/GNOME/libsecret)
   * [kwallet](https://api.kde.org/frameworks/kwallet/html/index.html)
 
-GNU/Linux distributions that use GNOME as default desktop environment typically come with [Seahorse](https://wiki.gnome.org/Apps/Seahorse). Users of KDE based distributions are commonly provided with [KDE Wallet Manager](https://userbase.kde.org/KDE\_Wallet\_Manager). Whilst the former is in fact a `libsecret` convenient frontend, the latter is a `kwallet` client.
+GNU/Linux distributions that use GNOME as default desktop environment typically come with [Seahorse](https://wiki.gnome.org/Apps/Seahorse). Users of KDE based distributions are commonly provided with [KDE Wallet Manager](https://userbase.kde.org/KDE_Wallet_Manager). Whilst the former is in fact a `libsecret` convenient frontend, the latter is a `kwallet` client.
 
 `os` is the default option since operating system's default credentials managers are designed to meet users' most common needs and provide them with a comfortable experience without compromising on security.
 

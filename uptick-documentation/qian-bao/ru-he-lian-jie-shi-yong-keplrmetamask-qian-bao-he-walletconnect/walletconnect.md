@@ -10,6 +10,6 @@ Open [UptickPro](https://marketbeta.uptick.network/downloads) or [MetamaskAPP](h
 
 Click `Approve`
 
-![](https://nrcwtrmnl3.feishu.cn/space/api/box/stream/download/asynccode/?code=MTZjNjcyNzM3MDRkODg1NWNlN2JjYmQzZjExZGQwNWFfb2RoZGlVcEduaFRRMjFRUm5xa0ZudnpCV2FDR3h3SjFfVG9rZW46UUo1RWJ2bkFkb3dDRTd4NGxkUmNnUVJtbk5oXzE2ODY4ODQ3MDc6MTY4Njg4ODMwN19WNA)![](../../.gitbook/assets/img\_v2\_59c7dde6-d9a1-491a-b420-8fa686db97cg.jpg)
+![](https://nrcwtrmnl3.feishu.cn/space/api/box/stream/download/asynccode/?code=MTZjNjcyNzM3MDRkODg1NWNlN2JjYmQzZjExZGQwNWFfb2RoZGlVcEduaFRRMjFRUm5xa0ZudnpCV2FDR3h3SjFfVG9rZW46UUo1RWJ2bkFkb3dDRTd4NGxkUmNnUVJtbk5oXzE2ODY4ODQ3MDc6MTY4Njg4ODMwN19WNA)![](../../.gitbook/assets/img_v2_59c7dde6-d9a1-491a-b420-8fa686db97cg.jpg)
 
 When performing operations such as creating and selling, the corresponding pop-up window will be displayed for operation.

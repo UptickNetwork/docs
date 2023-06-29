@@ -186,8 +186,8 @@ Block provisions (rewards) are distributed proportionally to all validators rela
 Let us take an example where we have 10 validators with equal staking power and a commission rate of 1%. Let us also assume that the provision for a block is 1000 UPTICK and that each validator has 20% of self-bonded UPTICK. These tokens do not go directly to the proposer. Instead, they are evenly spread among validators. So now each validator's pool has 100 UPTICK. These 100 UPTICK will be distributed according to each participant's stake:
 
 * Commission: `100*80%*1% = 0.8 UPTICK`
-* Validator gets: `100\*20% + Commission = 20.8 UPTICK`
-* All delegators get: `100\*80% - Commission = 79.2 UPTICK`
+* Validator gets: `100*20% + Commission = 20.8 UPTICK`
+* All delegators get: `100*80% - Commission = 79.2 UPTICK`
 
 Then, each delegator can claim its part of the 79.2 UPTICK in proportion to their stake in the validator's staking pool. Note that the validator's commission is not applied on block provisions. Note that block rewards (paid in UPTICK) are distributed according to the same mechanism.
 
@@ -201,17 +201,17 @@ Let's take a concrete example to illustrate the aforementioned concept. In this 
 
 We have to solve this simple equation to find the reward $R$ for each validator:
 
-$$9R ~ + ~ R ~ + ~ 5\%(R) ~ = ~ 1005 ~ \Leftrightarrow ~ R ~ = ~ 1005 ~/ ~10.05 ~ = ~ 100$$
+$$9R ~ + ~ R ~ + ~ 5%(R) ~ = ~ 1005 ~ Leftrightarrow ~ R ~ = ~ 1005 ~/ ~10.05 ~ = ~ 100$$
 
 * For the proposer validator:
-  * The pool obtains $R \~ + \~ 5%(R)$: 105 UPTICK
-  * Commission: $105 \~ ~~_80%_~~ \~ 1%$ = 0.84 UPTICK
-  * Validator's reward: $105 \~ \* \~ 20% \~ + \~ Commission$ = 21.84 UPTICK
-  * Delegators' rewards: $105 \~ \* \~ 80% \~ - \~ Commission$ = 83.16 UPTICK (each delegator will be able to claim its portion of these rewards in proportion to their stake)
+  * The pool obtains $R ~ + ~ 5%(R)$: 105 UPTICK
+  * Commission: $105 ~ ~~_80%_~~ ~ 1%$ = 0.84 UPTICK
+  * Validator's reward: $105 ~ * ~ 20% ~ + ~ Commission$ = 21.84 UPTICK
+  * Delegators' rewards: $105 ~ * ~ 80% ~ - ~ Commission$ = 83.16 UPTICK (each delegator will be able to claim its portion of these rewards in proportion to their stake)
   * The pool obtains $R$: 100 UPTICK
-  * Commission: $100 \~ ~~_80%_~~ \~ 1%$ = 0.8 UPTICK
-  * Validator's reward: $100 \~ \* \~ 20% \~ + \~ Commission$ = 20.8 UPTICK
-  * Delegators' rewards: $100 \~ \* \~ 80% \~ - \~ Commission$ = 79.2 UPTICK (each delegator will be able to claim its portion of these rewards in proportion to their stake)
+  * Commission: $100 ~ ~~_80%_~~ ~ 1%$ = 0.8 UPTICK
+  * Validator's reward: $100 ~ * ~ 20% ~ + ~ Commission$ = 20.8 UPTICK
+  * Delegators' rewards: $100 ~ * ~ 80% ~ - ~ Commission$ = 79.2 UPTICK (each delegator will be able to claim its portion of these rewards in proportion to their stake)
 
 ### What are the slashing conditions?
 

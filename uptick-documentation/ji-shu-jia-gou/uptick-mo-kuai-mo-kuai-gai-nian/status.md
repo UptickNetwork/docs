@@ -1,11 +1,11 @@
 # Status
 
-Query node statusFlags:\
+Query node statusFlags:
 
 
 | Name, shorthand | Default                                         | Description                                                | Required |
 | --------------- | ----------------------------------------------- | ---------------------------------------------------------- | -------- |
-| --node, -n      | tcp://[localhost:26657](http://localhost:26657) | \<host>:\<port> to tendermint rpc interface for this chain |          |
+| --node, -n      | tcp://[localhost:26657](http://localhost:26657) | <host>:<port> to tendermint rpc interface for this chain |          |
 
 Query node status
 

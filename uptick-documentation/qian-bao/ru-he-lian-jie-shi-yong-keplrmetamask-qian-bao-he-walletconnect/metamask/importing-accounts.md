@@ -12,4 +12,4 @@ If it takes some time to load the balance of the account, change the network to 
 Uptick) and then switch back to Uptick.
 {% endhint %}
 
-\
+

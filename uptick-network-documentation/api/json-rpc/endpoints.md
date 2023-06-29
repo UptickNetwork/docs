@@ -433,7 +433,7 @@ curl -X POST --data '{"jsonrpc":"2.0","method":"eth_getCode","params":["0x7bf7b1
 
 ### `eth_sign`
 
-The `sign` method calculates an Ethereum specific signature with: `sign(keccak256("\x19Ethereum Signed Message:\n" + len(message) + message)))`.
+The `sign` method calculates an Ethereum specific signature with: `sign(keccak256("x19Ethereum Signed Message:n" + len(message) + message)))`.
 
 By adding a prefix to the message makes the calculated signature recognizable as an Ethereum specific signature. This prevents misuse where a malicious DApp can sign arbitrary data (e.g. transaction) and use the signature to impersonate the victim.
 
@@ -514,7 +514,7 @@ Executes a new message call immediately without creating a transaction on the bl
 
     `to`: `DATA`, 20 Bytes - The address the transaction is directed to.
 
-    `gas`: QUANTITY - gas provided for the transaction execution. eth\_call consumes zero gas, but this parameter may be needed by some executions.
+    `gas`: QUANTITY - gas provided for the transaction execution. eth_call consumes zero gas, but this parameter may be needed by some executions.
 
     `gasPrice`: QUANTITY - gasPrice used for each paid gas
 
@@ -757,7 +757,7 @@ curl -X POST --data '{"jsonrpc":"2.0","method":"eth_getLogs","params":[{"topics"
 {"jsonrpc":"2.0","id":1,"result":[]}
 ```
 
-### eth\_coinbase
+### eth_coinbase
 
 Returns the account the mining rewards will be send to.
 
@@ -769,7 +769,7 @@ curl -X POST --data '{"jsonrpc":"2.0","method":"eth_coinbase","params":[],"id":1
 {"jsonrpc":"2.0","id":1,"result":"0x7cB61D4117AE31a12E393a1Cfa3BaC666481D02E"}
 ```
 
-### eth\_getProof
+### eth_getProof
 
 Returns the account- and storage-values of the specified account including the Merkle-proof.
 
@@ -973,7 +973,7 @@ curl -X POST --data '{"jsonrpc":"2.0","method":"personal_sendTransaction","param
 **Private**: Requires authentication.
 {% endhint %}
 
-The sign method calculates an Ethereum specific signature with: `sign(keccack256("\x19Ethereum Signed Message:\n" + len(message) + message)))`,
+The sign method calculates an Ethereum specific signature with: `sign(keccack256("x19Ethereum Signed Message:n" + len(message) + message)))`,
 
 #### Parameters
 
@@ -1091,7 +1091,7 @@ The `traceTransaction` debugging method will attempt to run the transaction in t
 
 ```json
 // Request
-curl -X POST --data '{"jsonrpc":"2.0","method":"debug_traceTransaction","params":["0xddecdb13226339681372b44e01df0fbc0f446fca6f834b2de5ecb1e569022ec8", {"tracer": "{data: [], fault: function(log) {}, step: function(log) { if(log.op.toString() == \"CALL\") this.data.push(log.stack.peek(0)); }, result: function() { return this.data; }}"}],"id":1}' -H "Content-Type: application/json" http://localhost:8545
+curl -X POST --data '{"jsonrpc":"2.0","method":"debug_traceTransaction","params":["0xddecdb13226339681372b44e01df0fbc0f446fca6f834b2de5ecb1e569022ec8", {"tracer": "{data: [], fault: function(log) {}, step: function(log) { if(log.op.toString() == "CALL") this.data.push(log.stack.peek(0)); }, result: function() { return this.data; }}"}],"id":1}' -H "Content-Type: application/json" http://localhost:8545
 
 //Result
 ["68410", "51470"]
@@ -1107,7 +1107,7 @@ The `traceBlockByNumber` endpoint accepts a block number and will replay the blo
 
 ```json
 // Request
-curl -X POST --data '{"jsonrpc":"2.0","method":"debug_traceBlockByNumber","params":["0xe", {"tracer": "{data: [], fault: function(log) {}, step: function(log) { if(log.op.toString() == \"CALL\") this.data.push(log.stack.peek(0)); }, result: function() { return this.data; }}"}],"id":1}' -H "Content-Type: application/json" http://localhost:8545
+curl -X POST --data '{"jsonrpc":"2.0","method":"debug_traceBlockByNumber","params":["0xe", {"tracer": "{data: [], fault: function(log) {}, step: function(log) { if(log.op.toString() == "CALL") this.data.push(log.stack.peek(0)); }, result: function() { return this.data; }}"}],"id":1}' -H "Content-Type: application/json" http://localhost:8545
 
 //Result
 {"jsonrpc":"2.0","id":1,"result":[{"result":["68410", "51470"]}]}

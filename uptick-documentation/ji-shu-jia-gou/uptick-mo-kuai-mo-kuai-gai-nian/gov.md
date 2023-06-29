@@ -134,7 +134,7 @@ uptickd query gov proposer [proposal-id] [flags]
 
 #### uptickd tx gov draft-proposal
 
-The draft-proposal command allows users to draft any type of proposal. The command returns a draft\_proposal.json, to be used by submit-proposal after being completed. The draft\_metadata.json is meant to be uploaded to IPFS.
+The draft-proposal command allows users to draft any type of proposal. The command returns a draft_proposal.json, to be used by submit-proposal after being completed. The draft_metadata.json is meant to be uploaded to IPFS.
 
 ```Bash
 uptickd tx gov draft-proposal
@@ -242,7 +242,7 @@ Cancel a software upgrade along with an initial deposit.
 uptickd tx gov submit-legacy-proposal cancel-software-upgrade [flags]
 ```
 
-\
+
 Flags:
 
 | Name, shorthand | Type   | Required | Default | Description             |
@@ -267,7 +267,7 @@ uptickd tx gov deposit [proposal-id] [deposit]
 
 #### uptickd tx gov vote
 
-Submit a vote for an active proposal. You can find the proposal-id by running "uptickd query gov proposals". Vote for an active proposal, options: yes/no/no\_with\_veto/abstain.
+Submit a vote for an active proposal. You can find the proposal-id by running "uptickd query gov proposals". Vote for an active proposal, options: yes/no/no_with_veto/abstain.
 
 ```Bash
 uptickd tx gov vote [proposal-id] [option] [flags]

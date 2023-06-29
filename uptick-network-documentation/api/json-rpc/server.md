@@ -17,9 +17,9 @@ Learn about the JSON-RPC server to interact with the EVM.
 
 Uptick supports all standard web3 JSON-RPC APIs. You can find documentation for these APIs on the [`JSON-RPC Methods`](endpoints.md) page.
 
-JSON-RPC is provided on multiple transports. Uptick supports JSON-RPC over HTTP and WebSocket. Transports must be enabled through command-line flags or through the `app.toml` configuration file. For more details see the \[]
+JSON-RPC is provided on multiple transports. Uptick supports JSON-RPC over HTTP and WebSocket. Transports must be enabled through command-line flags or through the `app.toml` configuration file. For more details see the []
 
-Ethereum JSON-RPC APIs use a name-space system. RPC methods are grouped into several categories depending on their purpose. All method names are composed of the namespace, an underscore, and the actual method name within the namespace. For example, the eth\_call method resides in the eth namespace.
+Ethereum JSON-RPC APIs use a name-space system. RPC methods are grouped into several categories depending on their purpose. All method names are composed of the namespace, an underscore, and the actual method name within the namespace. For example, the eth_call method resides in the eth namespace.
 
 Access to RPC methods can be enabled on a per-namespace basis. Find documentation for individual namespaces in the [Namespaces](namespaces.md) page.
 
@@ -38,7 +38,7 @@ When encoding **QUANTITIES** (integers, numbers): encode as hex, prefix with `"0
 When encoding **UNFORMATTED DATA** (byte arrays, account addresses, hashes, bytecode arrays): encode as hex, prefix with `"0x"`, two hex digits per byte. Examples:
 
 * `0x41` (size 1, `"A"`)
-* `0x004200` (size 3, `"\0B\0"`)
+* `0x004200` (size 3, `"0B0"`)
 * `0x` (size 0, `""`)
 * WRONG: `0xf0f0f` (must be even number of digits)
 * WRONG: `004200` (must be prefixed `0x`)

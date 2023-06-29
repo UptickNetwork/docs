@@ -11,7 +11,7 @@ description: A tool for simple debugging.
 | addr      | Convert an address between hex and bech32             |
 | ibc-denom | Generate ibc denom name                               |
 | pubkey    | Decode a pubkey from proto JSON                       |
-| raw-bytes | Convert raw bytes output (eg. \[10 21 13 255]) to hex |
+| raw-bytes | Convert raw bytes output (eg. [10 21 13 255]) to hex |
 
 #### uptickd debug addr
 
@@ -45,7 +45,7 @@ PubKey Hex: 029ee7bffd976746a893b29df077d6ff85f1b6c1020a5d11a884e1eedee3edfd92
 
 #### uptickd debug raw-bytes
 
-Convert raw bytes output (eg.\[72 101 108 108 111 44 32 112 108 97 121 103 114 111 117 110 100])
+Convert raw bytes output (eg.[72 101 108 108 111 44 32 112 108 97 121 103 114 111 117 110 100])
 
 ```Bash
 uptickd debug raw-bytes <raw-bytes>

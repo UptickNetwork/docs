@@ -114,7 +114,7 @@ uptickd tx staking create-validator \
 
 ### Reset Data
 
-warning If the version \<new\_version> you are upgrading to is not breaking from the previous one, you **should not** reset the data. If this is the case you can skip to [Restart](join.md#restart)
+warning If the version <new_version> you are upgrading to is not breaking from the previous one, you **should not** reset the data. If this is the case you can skip to [Restart](join.md#restart)
 
 First, remove the outdated files and reset the data.
 

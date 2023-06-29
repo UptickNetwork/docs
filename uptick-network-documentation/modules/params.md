@@ -22,7 +22,7 @@ Subspace currently supports the following:`auth`, `bank`, `staking`, `mint`, `di
 
 | key                | description                                        | default |
 | ------------------ | -------------------------------------------------- | ------- |
-| SendEnabled        | Tokens that support transfer                       | \[]     |
+| SendEnabled        | Tokens that support transfer                       | []     |
 | DefaultSendEnabled | Whether to enable the transfer function by default | TRUE    |
 
 #### staking
@@ -65,6 +65,6 @@ Subspace currently supports the following:`auth`, `bank`, `staking`, `mint`, `di
 
 | key           | description                                      | default                                                     |
 | ------------- | ------------------------------------------------ | ----------------------------------------------------------- |
-| depositparams | Related parameters of the deposit mortgage phase | min\_deposit: 10000000uiris; max\_deposit\_period: 2d(days) |
-| votingparams  | Related parameters of the voting mortgage phase  | voting\_period: 2d(days)                                    |
-| tallyparams   | Related parameters of the voting tally phase     | quorum: 0.334; threshold: 0.5; veto\_threshold: 0.334       |
+| depositparams | Related parameters of the deposit mortgage phase | min_deposit: 10000000uiris; max_deposit_period: 2d(days) |
+| votingparams  | Related parameters of the voting mortgage phase  | voting_period: 2d(days)                                    |
+| tallyparams   | Related parameters of the voting tally phase     | quorum: 0.334; threshold: 0.5; veto_threshold: 0.334       |

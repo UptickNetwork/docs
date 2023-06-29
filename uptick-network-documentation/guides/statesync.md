@@ -197,8 +197,8 @@ uptickd tendermint unsafe-reset-all --home $HOME/.uptickd --keep-addr-book
 Change config files (set the node name, add persistent peers, set indexer = "null")
 
 ```bash
-sed -i -e "s%^moniker *=.*%moniker = \"$moniker\"%; " $HOME/.uptickd/config/config.toml
-sed -i -e "s%^persistent_peers *=.*%persistent_peers = \"$PEER\"%; " $HOME/.uptickd/config/config.toml
+sed -i -e "s%^moniker *=.*%moniker = "$moniker"%; " $HOME/.uptickd/config/config.toml
+sed -i -e "s%^persistent_peers *=.*%persistent_peers = "$PEER"%; " $HOME/.uptickd/config/config.toml
 sed -i -e "s%^snapshot-interval *=.*%snapshot-interval = 1000%; " $HOME/.uptickd/config/app.toml
 sed -i -e "s%^snapshot-keep-recent *=.*%snapshot-keep-recent = 2%; " $HOME/.uptickd/config/app.toml
 mv $HOME/.uptickd/priv_validator_state.json.backup $HOME/.uptickd/data/priv_validator_state.json
@@ -210,8 +210,8 @@ Set the variables for start from snapshot
 # if you have not installed jq
 # apt-get update && apt-get install -y jq
 
-LATEST_HEIGHT=$(curl -s $SNAP_RPC/block | jq -r .result.block.header.height); \
-BLOCK_HEIGHT=$((LATEST_HEIGHT - 1000)); \
+LATEST_HEIGHT=$(curl -s $SNAP_RPC/block | jq -r .result.block.header.height); 
+BLOCK_HEIGHT=$((LATEST_HEIGHT - 1000)); 
 TRUST_HASH=$(curl -s "$SNAP_RPC/block?height=$BLOCK_HEIGHT" | jq -r .result.block_id.hash)
 ```
 
@@ -230,15 +230,15 @@ Output example (numbers will be different):
 If output is OK do next
 
 ```bash
-sed -i.bak -E "s|^(enable[[:space:]]+=[[:space:]]+).*$|\1true| ; \
+sed -i.bak -E "s|^(enable[[:space:]]+=[[:space:]]+).*$|1true| ; 
 
-s|^(rpc_servers[[:space:]]+=[[:space:]]+).*$|\1\"$SNAP_RPC,$SNAP_RPC1\"| ; \
+s|^(rpc_servers[[:space:]]+=[[:space:]]+).*$|1"$SNAP_RPC,$SNAP_RPC1"| ; 
 
-s|^(trust_height[[:space:]]+=[[:space:]]+).*$|\1$BLOCK_HEIGHT| ; \
+s|^(trust_height[[:space:]]+=[[:space:]]+).*$|1$BLOCK_HEIGHT| ; 
 
-s|^(trust_hash[[:space:]]+=[[:space:]]+).*$|\1\"$TRUST_HASH\"| ; \
+s|^(trust_hash[[:space:]]+=[[:space:]]+).*$|1"$TRUST_HASH"| ; 
 
-s|^(seeds[[:space:]]+=[[:space:]]+).*$|\1\"\"|" ~/.uptickd/config/config.toml
+s|^(seeds[[:space:]]+=[[:space:]]+).*$|1""|" ~/.uptickd/config/config.toml
 ```
 
 ### Run uptickd
@@ -252,5 +252,5 @@ The node is now state synced, having joined the network in seconds
 ### Use this command to switch off your State Sync mode, after node fully synced to avoid problems in future node restarts!
 
 ```bash
-sed -i.bak -E "s|^(enable[[:space:]]+=[[:space:]]+).*$|\1false|" $HOME/.uptickd/config/config.toml
+sed -i.bak -E "s|^(enable[[:space:]]+=[[:space:]]+).*$|1false|" $HOME/.uptickd/config/config.toml
 ```

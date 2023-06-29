@@ -11,9 +11,9 @@ Learn about Uptick with the list of official resources.
 * [Cosmos Unchained: Ethermint vs Avalanche](https://www.youtube.com/watch?v=WL4vdAR0vSs)
 * [Code With Us: Ethermint Tutorial - Elizabeth Binks](https://www.youtube.com/watch?v=cH-4Mq-S4BA)
 * [Ethermint 2.0: Cosmos SDK + EVM - Chris Goes](https://www.youtube.com/watch?v=VCLbS1Oks8A)
-* [Getting Started with Ethermint - Austin Abell](https://www.youtube.com/watch?v=Rws-QQ\_qcfU)
+* [Getting Started with Ethermint - Austin Abell](https://www.youtube.com/watch?v=Rws-QQ_qcfU)
 * [Ethermint and NFTs - Billy Rennekamp](https://www.youtube.com/watch?v=ReYV5cnSLyE)
-* [HackAtom India Webinar: Getting Started with Ethermint - Elizabeth Binks](https://www.youtube.com/watch?v=4oCIMFekY\_Q)
+* [HackAtom India Webinar: Getting Started with Ethermint - Elizabeth Binks](https://www.youtube.com/watch?v=4oCIMFekY_Q)
 
 ## Articles
 

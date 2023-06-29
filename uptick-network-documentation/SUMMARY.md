@@ -63,8 +63,7 @@
     * [Namespaces](api/json-rpc/namespaces.md)
     * [JSON-RPC Methods](api/json-rpc/endpoints.md)
     * [events](api/json-rpc/events.md)
-  * [Protobuf Documentation](api/proto-docs.md)
-  
+  * [Protobuf Documentation](api/protobuf/readme.md)
 * Modules
   * [introduction](modules/introduction.md)
   * [auth](modules/auth.md)

@@ -156,7 +156,7 @@ garment depart real arrow web impose place roast empty execute client lobster pr
 
 Convert and print to stdout key addresses and fingerprints from hexadecimal into bech32 cosmos prefixed format and vice versa.
 
-\
+
 Convert and print to stdout key addresses and fingerprints
 
 ```Bash
@@ -190,7 +190,7 @@ The following infos will be shown:
   type: local
 ```
 
-\
+
 Get validator operator address
 
 If an address has been bonded to be a validator operator (which the address you used to create a validator), then you can use `--bech val` to get the operator's address prefixed by `iva` and the pubkey prefixed by `ivp`:
