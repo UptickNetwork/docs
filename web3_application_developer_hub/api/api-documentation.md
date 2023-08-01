@@ -6,6 +6,10 @@
 
 **Version:**V.0.1
 
+Getting an API Key\
+[https://developer.uptick.network/index](https://developer.uptick.network/index)
+--------------------------------------------------------------------------------
+
 ## Block information interface
 
 ### Query transaction block information based on block number
