@@ -1,12 +1,12 @@
-# Api interface
 
-## Api interface documentation
+# Api documentation
 
 **HOST**:https://api.uptick.network
 
 **Version:**V.0.1
 
-Getting an API Key\
+Getting an API Key
+
 [https://developer.uptick.network/index](https://developer.uptick.network/index)
 --------------------------------------------------------------------------------
 
