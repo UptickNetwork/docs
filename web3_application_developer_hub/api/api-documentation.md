@@ -1,4 +1,4 @@
-# Api interface documentation
+# API documentation
 
 **HOST**:https://api.uptick.network
 

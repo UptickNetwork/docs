@@ -6,7 +6,7 @@
   * [Web3.js](use-sdk/web3.js.md)
   * [ethers.js](use-sdk/ethers.js.md)
 * [JSON-RPC Endpoint](json-rpc-endpoint.md)
-* [Api interface](api/api-documentation.md)  
+* [API](api/api-documentation.md)  
 * [Browser Extension](browser-extension/README.md)
   * [Detect the provider](browser-extension/detect-the-provider.md)
   * [Sign-In with Ethereum](browser-extension/sign-in-with-ethereum.md)
