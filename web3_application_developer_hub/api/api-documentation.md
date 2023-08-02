@@ -1,5 +1,5 @@
 
-# Api documentation
+# Query API documentation
 
 **HOST**:https://api.uptick.network
 
