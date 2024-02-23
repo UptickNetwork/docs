@@ -5,7 +5,7 @@ You specify the network you want to join by setting the genesis file and seeds. 
 
 | Network Chain ID | Description    | Site                                                                                               | Version                                                    |
 | ---------------- | -------------- | -------------------------------------------------------------------------------------------------- | ---------------------------------------------------------- |
-| origin_1170-1   | Uptick Origin Testnet | [origin_1170-1 testnet](https://github.com/UptickNetwork/uptick-testnet/tree/main/origin_1170-1) | [v0.2.7](https://github.com/UptickNetwork/uptick/releases/tag/v0.2.7-gon) |
+| origin_1170-3   | Uptick Origin Testnet | [origin_1170-3 testnet](https://github.com/UptickNetwork/uptick-testnet/tree/main/origin_1170-3) | [v0.2.18](https://github.com/UptickNetwork/uptick/releases/tag/v0.2.18) |
 
 ##  Connect to Testnet
 

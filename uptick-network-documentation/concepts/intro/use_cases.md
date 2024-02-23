@@ -1,6 +1,6 @@
 # Use Cases
 
-Check out the 2 use cases for the Uptick project.
+Check out the 3 use cases for the Uptick project.
 
 ## Uptick chain
 
@@ -13,6 +13,12 @@ Uptick will also offer built-in interoperability functionalities with other Cosm
 The EVM module (aka [x/evm](https://github.com/tharsis/ethermint/tree/main/x/evm)) packaged inside Uptick can be used separately as its own standalone module. This can be added as a dependency to any Cosmos chain, which will allow for smart contract support.
 
 Importing EVM module can also enable use cases such as Proof-of-Authority ([PoA](https://en.wikipedia.org/wiki/Proof_of_authority)) chains for enterprise and consortium projects. Every chain on Cosmos is an [application-specific blockchain](https://docs.cosmos.network/main/intro/why-app-specific.html) that is customized for the business logic defined by a single application. Thus, by using a predefined validator set and the EVM module as a dependency, enables projects with fast finality, interoperability as well as Proof-of-Stake (PoS) consensus.
+
+
+##Wasm module dependency
+
+cosWasm is a smart contract development framework based on WebAssembly (Wasm). It provides smart contract functionality for various blockchains within the Cosmos ecosystem.
+
 
 ## Trade offs
 

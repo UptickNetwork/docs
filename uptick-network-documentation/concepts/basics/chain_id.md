@@ -8,7 +8,7 @@ Testnets
 
 | Name                  | Chain ID        | Identifier | EIP155 Number | Version Number |
 | --------------------- | --------------- | ---------- | ------------- | -------------- |
-| Uptick Origin Testnet | `origin_1170-1` | `uptick`   | `1170`        | `1`            |
+| Uptick Origin Testnet | `origin_1170-3` | `uptick`   | `1170`        | `1`            |
 
 Mainnet
 
@@ -46,7 +46,7 @@ Testnets
 
 | ChainID         | Identifier | EIP155 Number | Version Number |
 | --------------- | ---------- | ------------- | -------------- |
-| `origin_1170-1` | origin     | 1170          | 1              |
+| `origin_1170-3` | origin     | 1170          | 1              |
 
  Mainnet
 

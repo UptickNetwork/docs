@@ -25,7 +25,7 @@ Example Output:
         },
         "id": "4e9c4865b96e4675da9322d50e1ec439161d56ea",
         "listen_addr": "tcp://0.0.0.0:26656",
-        "network": "origin_1170-1",
+        "network": "origin_1170-3",
         "version": "v0.34.26",
         "channels": "40202122233038606100",
         "moniker": "origin",

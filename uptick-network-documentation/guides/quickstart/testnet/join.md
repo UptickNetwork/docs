@@ -8,14 +8,14 @@ You specify the network you want to join by setting the **genesis file** and **s
 
 | Network Chain ID | Description           | Site                                                                                               | Version                                                                         |
 | ---------------- | --------------------- | -------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
-| `origin_1170-1`  | Uptick origin Testnet | [origin_1170-1 testnet](https://github.com/UptickNetwork/uptick-testnet/tree/main/origin_1170-1) | [`v0.2.7-gon`](https://github.com/UptickNetwork/uptick/releases/tag/v0.2.7-gon) |
+| `origin_1170-3`  | Uptick origin Testnet | [origin_1170-3 testnet](https://github.com/UptickNetwork/uptick-testnet/tree/main/origin_1170-3) | [`v0.2.18`](https://github.com/UptickNetwork/uptick/releases/tag/v0.2.18) |
 
 ## Public Endpoints
 
 * GRPC: grpc.origin.uptick.network:9090
 * RPC: https://rpc.origin.uptick.network
-* REST: https://api.origin.uptick.network/
-* JSON RPC: https://json-rpc.origin.uptick.network/
+* REST: https://api.origin.uptick.network
+* JSON RPC: https://json-rpc.origin.uptick.network
 
 ## Install `uptickd`
 
@@ -32,7 +32,7 @@ See the Official [Chain IDs](../concepts/basics/chain_id.md#official-chain-ids) 
 {% endhint %}
 
 ```bash
-uptickd config chain-id origin_1170-1
+uptickd config chain-id origin_1170-3
 ```
 
 ## Initialize Node
@@ -41,10 +41,10 @@ We need to initialize the node to create all the necessary validator and node co
 
 ```bash
 # initialize node configurations
-uptickd init <your_custom_moniker> --chain-id origin_1170-1
+uptickd init <your_custom_moniker> --chain-id origin_1170-3
 
 # download testnel public genesis.json
-curl -o $HOME/.uptickd/config/genesis.json https://raw.githubusercontent.com/UptickNetwork/uptick-testnet/main/origin_1170-1/config/genesis.json
+curl -o $HOME/.uptickd/config/genesis.json https://raw.githubusercontent.com/UptickNetwork/uptick-testnet/main/origin_1170-3/config/genesis.json
 
 
 ```
@@ -65,10 +65,10 @@ The newest state sync configs can be found [here](https://explorer.origin.uptick
 
 ```bash
 # initialize node configurations
-uptickd init <moniker> --chain-id origin_1170-1
+uptickd init <moniker> --chain-id origin_1170-3
 
 # download testnel public genesis.json
-curl -o $HOME/.uptickd/config/genesis.json https://raw.githubusercontent.com/UptickNetwork/uptick-testnet/main/origin_1170-1/config/genesis.json
+curl -o $HOME/.uptickd/config/genesis.json https://raw.githubusercontent.com/UptickNetwork/uptick-testnet/main/origin_1170-3/config/genesis.json
 
 # Configure State sync
 [statesync]
@@ -86,7 +86,7 @@ uptickd start
 
 Claim your testnet {{ $themeConfig.project.testnet_denom }} on the [faucet](faucet.md) using your validator account address and submit your validator account address:
 
-> NOTE: Until `uptickd status 2>&1 | jq ."SyncInfo"."catching_up"` got false, create your validator. If your validator is jailed, unjail it via `uptickd tx slashing unjail --from <wallet name> --chain-id origin_1170-1 -y -b block`.
+> NOTE: Until `uptickd status 2>&1 | jq ."SyncInfo"."catching_up"` got false, create your validator. If your validator is jailed, unjail it via `uptickd tx slashing unjail --from <wallet name> --chain-id origin_1170-3 -y -b block`.
 
 {% hint style="info" %}
 For more details on how to configure your validator, follow the validator [setup](../guides/validators/setup.md) instructions.
@@ -97,7 +97,7 @@ uptickd tx staking create-validator \
   --amount=5000000000000000000auoc \
   --pubkey=$(uptickd tendermint show-validator) \
   --moniker=<$moniker>" \
-  --chain-id=origin_1170-1 \
+  --chain-id=origin_1170-3 \
   --commission-rate="0.10" \
   --commission-max-rate="0.20" \
   --commission-max-change-rate="0.01" \

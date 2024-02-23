@@ -56,6 +56,8 @@
     * [Disk Usage Optimization](guides/validators/disk_optimization.md)
   * [Tendermint KMS](guides/kms.md)
   * [State Sync](guides/statesync.md)
+  * [Wasm](guides/wasm.md)
+  * [ICA](guides/ica.md)
 * API
   * JSON-RPC Server
     * [JSON-RPC Server](api/json-rpc/server.md)

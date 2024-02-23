@@ -76,7 +76,7 @@ uptickd tx send \
     test1
     uptick1e0fx0q9meawrcq7fmma9x60gk35lpr4xk3884m \
     10000000000000000000auoc \
-    --chain-id=origin_1170-1 \
+    --chain-id=origin_1170-3 \
     --gas=auto \
     --fees=1000000auoc \
     --broadcast-mode=block
@@ -93,7 +93,7 @@ uptickd tx send \
     5000000000000000000auoc \
     --gas=200000 \
     --fees=1000000auoc \
-    --chain-id=origin_1170-1 \
+    --chain-id=origin_1170-3 \
     --generate-only > unsignedTx.json
 ```
 
@@ -148,7 +148,7 @@ uptickd tx sign \
     --multisig=uptick1e0fx0q9meawrcq7fmma9x60gk35lpr4xk3884m \
     --from=test1 \
     --output-document=test1sig.json \
-    --chain-id=origin_1170-1 
+    --chain-id=origin_1170-3 
 ```
 
 ```sh
@@ -157,7 +157,7 @@ uptickd tx sign \
     --multisig=uptick1e0fx0q9meawrcq7fmma9x60gk35lpr4xk3884m \
     --from=test2 \
     --output-document=test2sig.json \
-    --chain-id=origin_1170-1
+    --chain-id=origin_1170-3
 ```
 
 ### Step 4: Create multisignature
@@ -170,7 +170,7 @@ uptickd tx multisign \
     multi \
     test1sig.json test2sig.json \
     --output-document=signedTx.json \
-    --chain-id=origin_1170-1
+    --chain-id=origin_1170-3
 ```
 
 The TX is now signed:
@@ -262,6 +262,6 @@ The TX is now signed:
 
 ```sh
 uptickd tx broadcast signedTx.json \
-    --chain-id=origin_1170-1 \
+    --chain-id=origin_1170-3 \
     --broadcast-mode=block
 ```
