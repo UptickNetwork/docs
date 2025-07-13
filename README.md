@@ -1,4 +1,4 @@
 
 
-## Docs for UptickNetwork
+## Docs for Uptick Network
 
