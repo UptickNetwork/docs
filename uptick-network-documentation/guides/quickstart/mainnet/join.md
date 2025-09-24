@@ -7,8 +7,8 @@ This document outlines the steps to join an existing mainnet
 You specify the network you want to join by setting the **genesis file** and **seeds**. If you need more information about past networks, check our [mainnet repo](https://github.com/UptickNetwork/uptick-mainnet).
 
 | Network Chain ID | Description    | Site                                                                                     | Version                                                         |
-| ---------------- | -------------- | ---------------------------------------------------------------------------------------- | --------------------------------------------------------------- |
-| `uptick_117-1`   | Uptick mainnet | [uptick_117-1](https://github.com/UptickNetwork/uptick-mainnet/tree/main/uptick_117-1) | [`v0.2.4`](https://github.com/UptickNetwork/uptick/tree/v0.2.4) |
+| ---------------- | -------------- | ---------------------------------------------------------------------------------------- |-----------------------------------------------------------------|
+| `uptick_117-1`   | Uptick mainnet | [uptick_117-1](https://github.com/UptickNetwork/uptick-mainnet/tree/main/uptick_117-1) | [`v0.3.0`](https://github.com/UptickNetwork/uptick/tree/v0.3.0) |
 
 ## Install `uptickd`
 
